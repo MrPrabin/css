@@ -9,24 +9,32 @@ body{
 }
 
 h1,h2{
-    font-size: 50px;
-    color: white;
+        font-size: 50px;
+        color: rgb(223, 104, 223);
+}
+
+h1{
+    margin-top: 250px;
 }
 
 .navbar ul{
     list-style: none;
-    }
+    background-color: rgb(152, 223, 251);
+}
 
 .navbar li{
-    display:inline-block;
+    display: inline-block;
 }
 
 .navbar a{
     text-decoration: none;
-    background-color: rgb(60, 206, 121);
-    color:white;
+    color: white;
     width: 250px;
-    display:block;
-    font-size: 30px;
-    }
+    margin: 10px;
+    font-size: 25px;
+    display: block;
+}
 
+.navbar ul li a:hover{
+    color: red;
+}
