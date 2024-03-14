@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/images/bgImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1,h2{
+    font-size: 50px;
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+    }
+
+.navbar li{
+    display:inline-block;
+}
+
+.navbar a{
+    text-decoration: none;
+    background-color: rgb(60, 206, 121);
+    color:white;
+    width: 250px;
+    display:block;
+    font-size: 30px;
+    }
+
